@@ -1,0 +1,45 @@
+/*index-rwd*/
+@media (max-width:1500px){
+  .w{
+    width: 100%;
+  }
+}
+@media (max-width:959px) {
+  .menu-list a{
+    font-size: 23px;
+  }
+  .bg .logo{
+    width: 40%;
+  }
+}
+@media (max-width:768px) {
+  .w{
+    padding-top:80px;
+  }
+  .menu-list a{
+    font-size: 20px;
+  }
+  .bg .logo{
+    width: 60%;
+    float:none; 
+  }
+}
+@media (max-width:650px) {
+  .w{
+    padding-top:70px;
+  }
+  .menu-list a{
+    font-size: 18px;
+    margin-bottom:20px;
+  }
+  .bg .logo{
+    width: 70%;
+    margin:0 auto;
+  }
+  .end .link a{
+    width:50px;
+  }
+  .end .copyright{
+    font-size:15px;
+  }
+}

@@ -1,0 +1,132 @@
+/* 背景樣式 start */
+.bg{
+  background-color: #e9f4e4;
+}
+/* 背景樣式 end */
+
+/* logo樣式 start */
+.bg .logo{
+  width: 35%;
+  margin-left:70px;
+  float:left;
+}
+.logo img{
+  width: 100%;
+  height: auto;
+}
+/* logo樣式 end */
+
+/* 選單明細樣式 start */
+.menu-list {
+  float:right;
+  margin-right: 100px;
+  margin-top: 15px;
+}
+.menu-list a{
+  display: block;
+  font: 27px "Microsoft JhengHei", sans-serif;
+  font-weight: 400;
+  letter-spacing: .1em;
+  color:#494e4d;
+  padding: 4px;
+  margin-bottom: 30px;
+  text-align: right; 
+}
+.menu-list a:hover{
+  color:rgb(214, 2, 2);
+}
+/* 選單明細樣式 end */
+
+/* 商品樣式  start*/
+.product{
+  padding-top:30px;
+}
+.product .one{
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product a{
+  display: block;
+  float:left;
+  box-sizing:border-box;
+  margin:10px;
+  position: relative;
+}
+.one a > img{
+  width: 100%;
+  border:1px dashed rgba(194, 194, 194, 0);
+  border-radius:30%;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: .5s;
+ 
+}
+.one a:hover >img{
+  /* 影像變暗 */
+  filter:brightness(.5);
+  border-color: rgb(25, 255, 17);
+}
+.icon{
+  visibility: hidden;
+  z-index: 999;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.one a:hover .icon{
+  opacity: 75%;
+  visibility: visible;
+}
+/* 商品樣式  end*/
+
+/* 底部連結樣式 start */
+.end{
+  margin-top: 200px;
+  width: 100%;
+}
+.end .link,.copyright{
+  /* margin-right: 70px; */
+  display: flex;
+  justify-content: center;
+}
+.end .link a{
+  display: block;
+  width: 65px;
+  float:left;  
+  margin: 0 15px;
+}
+.end .link a .mail,.facebook,.ig{
+  /*  */
+  width: 100%;
+  height: 65px;
+}
+.end .link a .mail{
+  background: url(../imgs/mail_icon2.svg) no-repeat center/contain;
+}
+.end .link a:hover .mail{
+  background: url(../imgs/mail_icon2_red.svg) no-repeat center/contain;
+}
+.end .link a .facebook{
+  background: url(../imgs/facebook_icon2.svg) no-repeat center/contain;
+}
+.end .link a:hover .facebook{
+  background: url(../imgs/facebook_icon2-red.svg) no-repeat center/contain;
+}
+.end .link a .ig{
+  background: url(../imgs/instagram_icon2.svg) no-repeat center/contain;
+}
+.end .link a:hover .ig{
+  background: url(../imgs/instagram_icon2_red.svg) no-repeat center/contain;
+}
+.end .link img{
+  width: 100%;
+}
+.copyright{
+  padding:20px 0px 50px 0;
+  font:18px Arial, Helvetica, sans-serif;
+  letter-spacing: .1em;
+}
+/* 底部連結樣式 end */

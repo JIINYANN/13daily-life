@@ -1,0 +1,20 @@
+/* 因內容浮動導致父元素高度塌陷: .clearfix避免高度塌陷 */
+.clearfix::before,
+.clearfix::after{
+  content:'';
+  display:table;
+  clear:both;
+}
+
+.w{
+  /* 網頁整體固定的寬度 */
+  width:1500px;
+  /* 網頁置中 */
+  margin: 0 auto;
+  padding-top: 100px;
+  /* padding-left:70px; */
+}
+/* a標籤樣式 */
+a{
+  text-decoration: none;
+}
